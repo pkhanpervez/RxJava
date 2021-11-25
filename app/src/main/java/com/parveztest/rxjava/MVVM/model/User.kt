@@ -1,4 +1,4 @@
-package com.parveztest.rxjava
+package com.parveztest.rxjava.MVVM.model
 
 data class User (
     var id: Int,

@@ -1,12 +1,13 @@
-package com.parveztest.rxjava
+package com.parveztest.rxjava.MVVM.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.parveztest.rxjava.MVVM.model.User
+import com.parveztest.rxjava.R
 
 class RecyclerAdapter(val context: Context) : RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>() {
 
